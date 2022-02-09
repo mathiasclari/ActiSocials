@@ -1,5 +1,6 @@
 package com.metaxcrew.socialsplugin;
 
+import com.metaxcrew.socialsplugin.Socials.WebSite;
 import net.md_5.bungee.api.ChatColor;
 import org.bukkit.Bukkit;
 import org.bukkit.configuration.InvalidConfigurationException;
@@ -33,6 +34,9 @@ public final class SocialsPlugin extends JavaPlugin {
         Bukkit.getConsoleSender().sendMessage(ChatColor.GRAY + "|" + ChatColor.of(new Color(65, 65, 65)) + "       Type:" + ChatColor.of(new Color(100, 100, 100)) + "Open Source");
         Bukkit.getConsoleSender().sendMessage(ChatColor.GRAY + "|");
         Bukkit.getConsoleSender().sendMessage(ChatColor.GRAY + "[]===============================================[]");
+
+        //Commands
+        getCommand("website").setExecutor(new WebSite());
     }
 
     @Override
