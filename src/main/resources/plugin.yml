@@ -1,0 +1,26 @@
+name: SocialsPlugin
+version: '${project.version}'
+main: com.metaxcrew.socialsplugin.SocialsPlugin
+api-version: 1.18
+authors: [Mat]
+website: https://discord.gg/acticraft
+
+commands:
+  discord:
+    description: discord
+    aliases: [Discord]
+  twitter:
+    description: twitter
+    aliases: [Twitter]
+  tiktok:
+    description: tiktok
+    aliases: [TikTok]
+  youtube:
+    description: Youtube
+    aliases: [yt]
+  website:
+    aliases: [Website]
+    description: website
+  acshelp:
+    aliases: [ActiSocialsHelp]
+    description: Help
