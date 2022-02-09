@@ -21,6 +21,6 @@ commands:
   website:
     aliases: [Website]
     description: website
-  acshelp:
-    aliases: [ActiSocialsHelp]
-    description: Help
+  instagram:
+      aliases: [Instagram]
+      description: Instagram
