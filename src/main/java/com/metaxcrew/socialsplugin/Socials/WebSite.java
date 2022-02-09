@@ -28,19 +28,6 @@ public class WebSite implements CommandExecutor {
             // Poslje sporocilo igralcu
             ((Player) sender).getPlayer().spigot().sendMessage(website);
         }
-
-
-        // Old code
-        /*
-        if (sender instanceof Player) {
-            Player player = (Player) sender;
-            BaseComponent[] website =
-                    new ComponentBuilder("★ ").color(ChatColor.of(new Color(161, 255, 234))).append("Website: ").color(ChatColor.of(new Color(100, 100, 100)))
-                            .append("Click me").color(ChatColor.of(new Color(173, 173, 173))).bold(true).event(new ClickEvent(ClickEvent.Action.OPEN_URL, websiteLink)).create();
-
-            player.spigot().sendMessage(website);
-        }
-        */
         return false;
     }
 }
